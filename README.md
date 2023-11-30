@@ -42,20 +42,8 @@ am heavily relying on Flatpaks from [Flathub](https://flathub.org) and some
 binary downloads.
 
 - Firefox
-- GNOME Calendar
-- GNOME Clocks
-- Geary
-- Endeavor (formerly GNOME ToDo)
-- Totem video player
 - GIMP
-- kubectl
-- kubectx
-- kubens
-- Skaffold
-- cirrus-cli
-- ngrok
 - micro
-- VSCode
 
 And many more.
 
@@ -63,18 +51,11 @@ And many more.
 
 The repository is meant for my own set of hardware and the hardware is mostly
 working out of the box, without additional drivers or tooling. Therefore, it
-may work for your setup, too. Nevetherless, there is no guarentee, though.
+may work for your setup, too. Nevertheless, there is no guarentee, though.
 
 My setup consists of:
 
 - [Fedora Silverblue](https://silverblue.fedoraproject.org/)
-- [Dell XPS 13 9315](https://en.wikipedia.org/wiki/Dell_XPS)
-- [Logitech MX Master](https://www.logitech.com/en-us/mx/master-series.html)
-- [Custom Keyboard](https://blog.while-true-do.io/diy-my-first-custom-keyboard/)
-- [Dell USB-C Monitor](https://www.dell.com/en-us/work/lp/usb-c-monitor)
-
-This combination has decent battery life, works like a charm with hotplugging
-and I am getting firmware updates via GNOME software.
 
 ## Usage
 
@@ -108,12 +89,12 @@ $ sudo rpm-ostree install ansible
 #### Playbook
 
 Afterwards, you can download the desired release from the
-[release page](https://github.com/dschier-wtd/fedora-workstation/tags) and
+[release page](https://github.com/evfool/fedora-workstation/tags) and
 store it in a location, that suits your needs.
 
 ```shell
 # Download a tag/release
-$ https://github.com/dschier-wtd/fedora-workstation/archive/refs/tags/<tag_name>.zip
+$ https://github.com/evfool/fedora-workstation/archive/refs/tags/<tag_name>.zip
 
 ```
 
@@ -122,7 +103,7 @@ you can clone the repository instead.
 
 ```shell
 # Clone the repository with a given tag
-$ git clone https://github.com/dschier-wtd/fedora-workstation.git
+$ git clone https://github.com/evfool/fedora-workstation.git
 
 # Checkout the desired tag
 $ git checkout <tag_name>
@@ -171,20 +152,12 @@ is working and configured as expected.
 
 ## Contribute
 
-The dotfiles are intended to be used by me (Daniel Schier), but please feel free
-to use/fork/enhance them or opening issues to give me an idea what may be added
-in future versions.
+The dotfiles are intended to be used by me (evfool), forked from Daniel Shier's 
+awesome work (https://github.com/dschier-wtd/fedora-workstation).
+Feel free to use/fork/enhance them or opening issues on the original project 
+to give the author an idea what may be added in future versions.
 
 ## License
 
 Except otherwise noted, all work is [licensed](LICENSE) under a
 [BSD-3-Clause License](https://opensource.org/licenses/BSD-3-Clause).
-
-## Contact
-
-Please feel free to reach out to me to provide feedback or get in touch.
-
-- Site: <https://while-true-do.io>
-- Blog: <https://blog.while-true-do.io>
-- Code: <https://github.com/dschier-wtd>
-- Mail: [dschier@while-true-do.io](mailto:dschier@while-true-do.io)
