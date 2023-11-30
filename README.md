@@ -3,12 +3,6 @@ reference: https://www.makeareadme.com/
 reference: https://commonmark.org/
 -->
 
-[![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/dschier-wtd/fedora-workstation?logo=Cirrus-ci)](https://cirrus-ci.com/github/dschier-wtd/fedora-workstation)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/dschier-wtd/fedora-workstation?logo=GitHub&label=Release&sort=semver)](https://github.com/dschier-wtd/fedora-workstation/releases)
-[![GitHub issues](https://img.shields.io/github/issues/dschier-wtd/fedora-workstation)](https://github.com/dschier-wtd/fedora-workstation/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/dschier-wtd/fedora-workstation)](https://github.com/dschier-wtd/fedora-workstation/pulls)
-[![GitHub license](https://img.shields.io/github/license/dschier-wtd/fedora-workstation)](https://github.com/dschier-wtd/fedora-workstation/blob/main/LICENSE)
-
 # Fedora Workstation
 
 Ansible setup of my workstation.
@@ -25,9 +19,9 @@ The Ansible playbook will install and configure various software. Most of the
 automation can be configured very easily and should be self-explanatory.
 Nevertheless, the following section will provide a feature overview.
 
-I also wrote an article in my
-[blog](https://blog.while-true-do.io/fedora-my-workstation-setup) about this
-setup.
+The original author also wrote an article in his
+[blog](https://blog.while-true-do.io/fedora-my-workstation-setup) about his
+setup, which my setup is based on.
 
 ### Screenshots
 
